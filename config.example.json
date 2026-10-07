@@ -1,0 +1,26 @@
+{
+  "_note": "复制成 config.json 后改成本机路径。Windows 上 JSON 路径要写双反斜杠，例如 D:\\\\素材\\\\标本。",
+
+  "photo_dirs": [
+    "/path/to/DCIM/100MSDCF",
+    "/path/to/DCIM/101MSDCF"
+  ],
+  "video_dir": "/path/to/DCIM/CLIP",
+  "out_root": "/path/to/已分类",
+  "cache_dir": "./cache",
+
+  "model": "qwen3.6:35b",
+  "ollama_url": "http://127.0.0.1:11434/api/generate",
+  "target_w": 1280,
+  "workers": 4,
+  "cluster_gap_sec": 60,
+
+  "photo_exts": [".arw", ".jpg", ".jpeg", ".png"],
+  "video_exts": [".mp4", ".mov", ".mts"],
+
+  "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+  "ffprobe": "/opt/homebrew/bin/ffprobe",
+
+  "move": false,
+  "use_cv2": false
+}

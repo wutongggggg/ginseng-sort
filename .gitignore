@@ -1,0 +1,10 @@
+# 运行产物 / 缓存
+cache/
+.venv-ginseng/
+.venv-ginseng-win/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 本机配置（用 config.example.json 模板自建）
+config.json

@@ -1,0 +1,4 @@
+pillow
+numpy
+rawpy
+opencv-python-headless
